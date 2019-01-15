@@ -25,6 +25,24 @@ body {
     height: 100%;
     width: 100%; }
 
+body-casestudy {
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.8;
+  font-size: 16px;
+  font-weight: 300;
+  background: #f7f7f7;
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;}
+  body.menu-show {
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%; }
+
+text-casestudy {
+  font-size: 16px;
+}
+
 #colorlib-wrapper {
   height: 100%;
   width: 100%;
@@ -112,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 43, 220, 0.9);
+  background: rgba(161, 169, 237, 0.9);
   z-index: 1002;
   text-align: center;
   visibility: hidden;
@@ -227,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
             -o-transform: scaleX(1);
             transform: scaleX(1); }
             #colorlib-main-nav ul li a:hover span{
-              color: yellow
+              color: yellow;
             }
       #colorlib-main-nav ul li.active a span {
         color: #aaa; }
@@ -478,7 +496,7 @@ header {
     position: relative; }
     .services .desc h3:after {
       position: absolute;
-      bottom: -15px;
+      bottom: -10px;
       left: 0;
       right: 0;
       content: '';
@@ -490,7 +508,12 @@ header {
       color: #5E5E5E; }
   .services .desc h4 {
     font-weight: 300;
-    margin-bottom: 18px; }
+    margin-bottom: 18px;
+  text-align: left;
+width: 120%}
+.right h4{
+  padding-left: 80px;
+}
   .services .desc span {
     display: block;
     text-transform: uppercase;
@@ -579,11 +602,11 @@ header {
     position: absolute;
     top: -34px;
     right: 0;
-    color: #002bdc; }
+    color: #A1A9ED; }
   .progress-bar.color-1 {
-    background: #002bdc; }
+    background: #A1A9ED; }
     .progress-bar.color-1:after {
-      background: #002bdc; }
+      background: #A1A9ED; }
 
 .about-2 {
   margin-bottom: 20px; }
@@ -786,8 +809,8 @@ header {
     .work-single-flex .work-desc .button-btn {
       color: #999999; }
     .work-single-flex .work-desc .btn-preview {
-      color: #002bdc;
-      border: 1px solid #002bdc;
+      color: #A1A9ED;
+      border: 1px solid #A1A9ED;
       padding: 7px 15px;
       text-decoration: none;
       -webkit-border-radius: 30px;
@@ -795,7 +818,7 @@ header {
       -ms-border-radius: 30px;
       border-radius: 30px; }
     .work-single-flex .work-desc .btn-download {
-      color: #002bdc; }
+      color: #A1A9ED; }
 
 .article {
   display: block; }
@@ -868,9 +891,9 @@ header {
         text-decoration: none;
         color: #5E5E5E; }
         .article .desc h2 a:hover {
-          color: #002bdc; }
+          color: #A1A9ED; }
   .article:hover .meta {
-    background: #002bdc;
+    background: #A1A9ED;
     color: #fff; }
 
 article .blog-img {
@@ -1185,7 +1208,7 @@ article .desc .tag {
   z-index: 1003;
   position: relative;
   display: block;
-  margin: 0 auto;
+  margin: -60px;
   cursor: pointer;
   margin-top: 0; }
   @media screen and (max-width: 768px) {
@@ -1220,7 +1243,7 @@ article .desc .tag {
       font-size: 16px;
       color: rgba(0, 0, 0, 0.5); }
     .contact-info li a {
-      color: #002bdc; }
+      color: #A1A9ED; }
 
 .form-control {
   -webkit-box-shadow: none;
@@ -1239,7 +1262,7 @@ article .desc .tag {
   .form-control:focus, .form-control:active {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border: 1px solid #002bdc; }
+    border: 1px solid #A1A9ED; }
 
 input[type="text"] {
   height: 60px; }
@@ -1353,7 +1376,7 @@ input[type="text"] {
     .colorlib-footer .btn-footer a {
       display: inline-block;
       padding: 20px 30px;
-      background: #ffdd00;
+      background: #fff;
       color: #5E5E5E;
       font-weight: 500;
       -webkit-border-radius: 2px;
@@ -1538,3 +1561,22 @@ input[type="text"] {
      right: 300px;
      bottom: 100px;
    }
+
+   .video-image {
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: none;
+     height: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
+     width: 100%;
+     z-index: 10;
+   }
+
+   .containerheader {
+       margin-right: 5px;
+       margin-left: 5px;
+       padding-left: 15px;
+       padding-right: 15px;
