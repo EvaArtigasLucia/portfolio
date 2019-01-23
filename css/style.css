@@ -16,21 +16,6 @@ body {
   line-height: 1.8;
   font-size: 20px;
   font-weight: 300;
-  background: #f7f7f7;
-  color: #1a1a1a;
-  -webkit-font-smoothing: antialiased;}
-  body.menu-show {
-    overflow: hidden;
-    position: fixed;
-    height: 100%;
-    width: 100%; }
-
-body-casestudy {
-  font-family: "Poppins", Arial, sans-serif;
-  line-height: 1.8;
-  font-size: 16px;
-  font-weight: 300;
-  background: #f7f7f7;
   color: #1a1a1a;
   -webkit-font-smoothing: antialiased;}
   body.menu-show {
@@ -75,11 +60,45 @@ span {
   font-size: 18px;
   color: rgba(114, 114, 114, 0.8); }
 
-h1, h2, h3, h4, h5, h6 {
+.case-desc h3 {
+  font-size: 40px;
+  font-weight: 700; }
+  .case-desc h3 a {
+    color: #aaa;
+    text-decoration: none; }
+
+h1, h2 {
   color: rgba(0, 0, 0, 0.8);
   font-family: "Poppins", Arial, sans-serif;
   margin: 0 0 30px 0;
   line-height: 1.3; }
+
+h3 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: #aaa;
+  text-decoration: none; }
+
+h4 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #5E5E5E;
+  margin-left: 100px;
+  text-decoration: none; }
+
+h6 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  text-align: center;
+  color: #5E5E5E; }
+
+h5 {
+  line-height: 16pt; }
 
 ::-webkit-selection {
   color: #fcfcfc;
@@ -430,10 +449,9 @@ header {
       #colorlib-hero .hero-flex .text-inner .btn-view {
         font-size: 12px;
         letter-spacing: 7px;
-        color: #5E5E5E;
+        color: #E8588F;
         text-transform: uppercase;
         font-weight: 500;
-        border: 1px solid #5E5E5E;
         padding: 7px;
         text-decoration: none;
         position: relative;
@@ -502,18 +520,17 @@ header {
       content: '';
       width: 30px;
       height: 1px;
-      background: #5E5E5E;
+      background: #aaa;
       margin: 0 auto; }
     .services .desc h3 a {
       color: #5E5E5E; }
-  .services .desc h4 {
+  .services .desc h5 {
     font-weight: 300;
     margin-bottom: 18px;
-  text-align: left;
-width: 120%}
-.right h4{
-  padding-left: 80px;
-}
+    text-align: left;
+    width: 120%}
+  .right h5{
+    padding-left: 80px; }
   .services .desc span {
     display: block;
     text-transform: uppercase;
@@ -549,9 +566,9 @@ width: 120%}
 
 .case-desc h3 {
   font-size: 40px;
-  font-weight: 600; }
+  font-weight: 700; }
   .case-desc h3 a {
-    color: #5E5E5E;
+    color: #aaa;
     text-decoration: none; }
 
 .progress-wrap {
@@ -770,7 +787,7 @@ width: 120%}
         letter-spacing: 4px;
         font-size: 14px; }
     .work-entry-flex .text-inner .btn-view {
-      color: #5E5E5E;
+      color: #black;
       text-decoration: none; }
 
 .work-single-flex {
@@ -807,9 +824,9 @@ width: 120%}
         .work-single-flex .work-desc h2 {
           font-size: 30px; } }
     .work-single-flex .work-desc .button-btn {
-      color: #999999; }
+      color: #E8588F; }
     .work-single-flex .work-desc .btn-preview {
-      color: #A1A9ED;
+      color: #E8588F;
       border: 1px solid #A1A9ED;
       padding: 7px 15px;
       text-decoration: none;
@@ -818,7 +835,7 @@ width: 120%}
       -ms-border-radius: 30px;
       border-radius: 30px; }
     .work-single-flex .work-desc .btn-download {
-      color: #A1A9ED; }
+      color: #E8588F; }
 
 .article {
   display: block; }
@@ -941,24 +958,24 @@ article .desc .tag {
   .review .desc {
     width: calc(100% - 100px);
     float: right; }
-    .review .desc h4 {
+    .review .desc h5 {
       width: 100%;
       margin-bottom: 10px; }
-      .review .desc h4 span {
+      .review .desc h5 span {
         width: 49%;
         display: inline-block; }
-        .review .desc h4 span:first-child {
+        .review .desc h5 span:first-child {
           font-size: 18px;
           color: #5E5E5E; }
-        .review .desc h4 span:last-child {
+        .review .desc h5 span:last-child {
           font-size: 14px;
           color: gray; }
-        .review .desc h4 span.text-right-here {
+        .review .desc h5 span.text-right-here {
           text-align: right; }
         @media screen and (max-width: 480px) {
-          .review .desc h4 span {
+          .review .desc h5 span {
             width: 100%; }
-            .review .desc h4 span.text-right-here {
+            .review .desc h5 span.text-right-here {
               text-align: left; } }
     .review .desc .star {
       width: 100%; }
@@ -1001,33 +1018,31 @@ article .desc .tag {
     outline: none !important; }
 
 .btn-primary {
-  background: #A1A9ED;
+  background: #E8588F;
   color: #ffffff;
   }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #ffe01a !important;
+    background: #E892B3 !important;
     }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #4d4d4d;
+    color: #E892B3;
     }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
       background: #A1A9ED;
       color: #fff; }
 
 .btn-success {
-  background: #5cb85c;
+  background: #E892B3;
   color: #fff;
-  border: 2px solid #5cb85c; }
+  border: 2px solid #E892B3; }
   .btn-success:hover, .btn-success:focus, .btn-success:active {
-    background: #4cae4c !important;
-    border-color: #4cae4c !important; }
+    background: #E892B3 !important;}
   .btn-success.btn-outline {
     background: transparent;
-    color: #5cb85c;
-    border: 2px solid #5cb85c; }
+    color: #E892B3;}
     .btn-success.btn-outline:hover, .btn-success.btn-outline:focus, .btn-success.btn-outline:active {
-      background: #5cb85c;
+      background: #E892B3;
       color: #fff; }
 
 .btn-info {
@@ -1035,8 +1050,7 @@ article .desc .tag {
   color: #fff;
   border: 2px solid #5bc0de; }
   .btn-info:hover, .btn-info:focus, .btn-info:active {
-    background: #46b8da !important;
-    border-color: #46b8da !important; }
+    background: #46b8da !important;}
   .btn-info.btn-outline {
     background: transparent;
     color: #5bc0de;
@@ -1047,30 +1061,24 @@ article .desc .tag {
 
 .btn-warning {
   background: #f0ad4e;
-  color: #fff;
-  border: 2px solid #f0ad4e; }
+  color: #fff;}
   .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
-    background: #eea236 !important;
-    border-color: #eea236 !important; }
+    background: #E892B3 !important;}
   .btn-warning.btn-outline {
     background: transparent;
-    color: #f0ad4e;
-    border: 2px solid #f0ad4e; }
+    color: #f0ad4e;}
     .btn-warning.btn-outline:hover, .btn-warning.btn-outline:focus, .btn-warning.btn-outline:active {
       background: #f0ad4e;
       color: #fff; }
 
 .btn-danger {
   background: #d9534f;
-  color: #fff;
-  border: 2px solid #d9534f; }
+  color: #fff;}
   .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
-    background: #d43f3a !important;
-    border-color: #d43f3a !important; }
+    background: #d43f3a !important;}
   .btn-danger.btn-outline {
     background: transparent;
-    color: #d9534f;
-    border: 2px solid #d9534f; }
+    color: #d9534f;}
     .btn-danger.btn-outline:hover, .btn-danger.btn-outline:focus, .btn-danger.btn-outline:active {
       background: #d9534f;
       color: #fff; }
@@ -1575,8 +1583,52 @@ input[type="text"] {
      z-index: 10;
    }
 
-   .containerheader {
-       margin-right: 5px;
-       margin-left: 5px;
-       padding-left: 15px;
-       padding-right: 15px;
+   .img-bg {
+     width: 100%;
+     height: 100%;
+     background-size: cover;
+     background-repeat: no-repeat;
+   }
+
+   .col-md-offset-eva {
+     margin-left: 25%;
+     margin-right: 25%;
+     display: block;
+     font-size: 16px;
+   }
+
+   .about-eva {
+     margin-top: 150px;
+   }
+
+   .container-h3-eva {
+     font-size: 40px;
+     font-weight: 600px;
+     margin-left: 100px;
+   }
+
+   .container-gray-eva {
+     background-color: #f7f7f7;
+   }
+
+   .video-left-eva {
+       margin-left: 300px;
+       display: block
+   }
+
+   .video-right-eva {
+       margin-right: 300px;
+       display: block
+   }
+
+   .planit {
+     color: #A1A9ED;}
+
+   .MealkPlan {
+     color: #69BEA4;}
+
+   .ABC {
+     color: #C2A28D;}
+
+   .postdata {
+     color: #CA6386;}
