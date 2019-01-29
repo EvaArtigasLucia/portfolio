@@ -149,7 +149,7 @@ h5 {
   padding: 0;
   width: 100%;
   height: 100%;
-  background: rgba(161, 169, 237, 0.9);
+  background: #BA5568;
   z-index: 1002;
   text-align: center;
   visibility: hidden;
@@ -175,7 +175,7 @@ h5 {
   #colorlib-main-nav .colorlib-nav-toggle {
     position: absolute;
     top: 40px;
-    right: 40px;
+    right: 120px;
     padding: 20px;
     height: 44px;
     width: 44px;
@@ -269,7 +269,7 @@ h5 {
       #colorlib-main-nav ul li.active a span {
         color: #aaa; }
         #colorlib-main-nav ul li.active a span:before {
-          background: #A1A9ED;
+          background: #BA5568;
           -webkit-transform: scaleX(1);
           -moz-transform: scaleX(1);
           -ms-transform: scaleX(1);
@@ -402,7 +402,7 @@ header {
     #colorlib-hero .hero-flex .display-tc {
       display: table-cell;
       vertical-align: middle;
-      background: #A1A9ED; }
+      background-image: url("bg.jpg"); }
     #colorlib-hero .hero-flex .text-inner {
       display: flex;
       justify-content: center;
@@ -449,7 +449,7 @@ header {
       #colorlib-hero .hero-flex .text-inner .btn-view {
         font-size: 12px;
         letter-spacing: 7px;
-        color: #E8588F;
+        color: #BA5568;
         text-transform: uppercase;
         font-weight: 500;
         padding: 7px;
@@ -544,10 +544,10 @@ header {
   left: 0;
   right: 0; }
   .work-wrap .owl-theme .owl-controls .owl-theme .owl-dots .owl-dot span {
-    background: rgba(255, 255, 255, 0.5); }
+    background: #BA5568; }
 
 .work-wrap .owl-theme .owl-dots .owl-dot.active span, .work-wrap .owl-theme .owl-dots .owl-dot:hover span {
-  background: #A1A9ED; }
+  background: #BA5568; }
 
 .case-img {
   display: block;
@@ -666,7 +666,7 @@ header {
     content: '';
     width: 80px;
     height: 4px;
-    background: #A1A9ED;
+    background: #DC8C8B;
     margin: 0 auto; }
     @media screen and (max-width: 768px) {
       .intro-heading:after {
@@ -824,9 +824,9 @@ header {
         .work-single-flex .work-desc h2 {
           font-size: 30px; } }
     .work-single-flex .work-desc .button-btn {
-      color: #E8588F; }
+      color: #BA5568; }
     .work-single-flex .work-desc .btn-preview {
-      color: #E8588F;
+      color: #BA5568;
       border: 1px solid #A1A9ED;
       padding: 7px 15px;
       text-decoration: none;
@@ -835,7 +835,7 @@ header {
       -ms-border-radius: 30px;
       border-radius: 30px; }
     .work-single-flex .work-desc .btn-download {
-      color: #E8588F; }
+      color: #BA5568; }
 
 .article {
   display: block; }
@@ -1014,32 +1014,32 @@ article .desc .tag {
     outline: none !important; }
 
 .btn-primary {
-  background: #E8588F;
+  background: #BA5568;
   color: #ffffff;
   }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #E892B3 !important;
+    background: #D68987 !important;
     border: none;
     }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #E892B3;
+    color: #D68987;
     }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #A1A9ED;
+      background: #BA5568;
       color: #fff; }
 
 .btn-success {
-  background: #E892B3;
+  background: #D68987;
   color: #fff;
-  border: 2px solid #E892B3; }
+  border: 2px solid #D68987; }
   .btn-success:hover, .btn-success:focus, .btn-success:active {
-    background: #E892B3 !important;}
+    background: #D68987 !important;}
   .btn-success.btn-outline {
     background: transparent;
-    color: #E892B3;}
+    color: #D68987;}
     .btn-success.btn-outline:hover, .btn-success.btn-outline:focus, .btn-success.btn-outline:active {
-      background: #E892B3;
+      background: #D68987;
       color: #fff; }
 
 .btn-info {
@@ -1060,7 +1060,7 @@ article .desc .tag {
   background: #f0ad4e;
   color: #fff;}
   .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
-    background: #E892B3 !important;}
+    background: #D68987 !important;}
   .btn-warning.btn-outline {
     background: transparent;
     color: #f0ad4e;}
@@ -1365,7 +1365,7 @@ input[type="text"] {
 
 .colorlib-footer {
   padding-bottom: 5em;
-  background: #A1A9ED;
+  background: #DC8C8B;
   color: rgba(255, 255, 255, 0.9); }
   .colorlib-footer a {
     color: #fff; }
