@@ -1000,10 +1000,6 @@ article .desc .tag {
   margin-bottom: 4px;
   font-size: 14px !important;
   font-weight: 400;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  -ms-border-radius: 1px;
-  border-radius: 1px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -1023,6 +1019,7 @@ article .desc .tag {
   }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #E892B3 !important;
+    border: none;
     }
   .btn-primary.btn-outline {
     background: transparent;
@@ -1632,3 +1629,7 @@ input[type="text"] {
 
    .postdata {
      color: #CA6386;}
+
+.text-small {
+  font-size: 16px;
+}
